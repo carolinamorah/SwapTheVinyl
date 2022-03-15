@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @vinyl.name %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @vinyl.author %>
+</p>
+
+<p>
+  <strong>Release date:</strong>
+  <%= @vinyl.release_date %>
+</p>
+
+<p>
+  <strong>Format info:</strong>
+  <%= @vinyl.format_info %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @vinyl.status %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @vinyl.user.collectionist_name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @vinyl.description %>
+</p>
+
+<%= link_to 'Edit', edit_vinyl_path(@vinyl) %> |
+<%= link_to 'Back', vinyls_path %>

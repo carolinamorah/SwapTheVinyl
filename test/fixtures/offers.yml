@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  offeredvinyl_id: 1
+  desiredvinyl_id: 1
+  offer_state: 1
+  end_date: 2022-03-14 23:40:38
+
+two:
+  offeredvinyl_id: 1
+  desiredvinyl_id: 1
+  offer_state: 1
+  end_date: 2022-03-14 23:40:38
